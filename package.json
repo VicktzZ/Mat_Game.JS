@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "cli-spinners": "^2.6.1",
+    "colors": "^1.4.0",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^8.2.3"
+  },
+  "type": "module"
+}
