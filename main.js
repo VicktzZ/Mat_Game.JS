@@ -1,18 +1,9 @@
-import chalk from "chalk";
-import chalkAnimation from "chalk-animation"
-import inquirer from "inquirer";
-import gradient from "gradient-string";
-import load from "./functions/load.js";
-import sleep from "./functions/sleep.js"
+import load from "./lib/load.js";
+import start from "./lib/start.js";
 
+(async function main(){
 
-
-let playername
-
-(async function start(){
-
-    console.clear()
-    
-    load()
+    await load()
+    await start()
 
 })()
