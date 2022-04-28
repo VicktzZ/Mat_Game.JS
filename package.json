@@ -2,11 +2,14 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "chalk-animation": "^2.0.2",
-    "cli-spinners": "^2.6.1",
+    "cli-progress": "^3.10.0",
     "colors": "^1.4.0",
     "gradient-string": "^2.0.1",
     "inquirer": "^8.2.3",
-    "node-emoji": "^1.11.0"
+    "nanospinner": "^1.1.0",
+    "node-emoji": "^1.11.0",
+    "random": "^3.0.6",
+    "readline-sync": "^1.4.10"
   },
   "type": "module"
 }
