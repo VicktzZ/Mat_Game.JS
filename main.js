@@ -8,9 +8,9 @@ import start from "./lib/start.js";
     // "Tela de carregamento"
     console.clear()
     let spinner = createSpinner('Carregando...')
-    
+
     spinner.start()
-    await sleep(5000)
+    await sleep(3000)
     spinner.stop()
 
     // Introdução
