@@ -13,7 +13,8 @@
     "nanospinner": "^1.1.0",
     "node-emoji": "^1.11.0",
     "random": "^3.0.6",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "table": "^6.8.0"
   },
   "type": "module"
 }
