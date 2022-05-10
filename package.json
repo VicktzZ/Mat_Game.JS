@@ -15,6 +15,5 @@
     "random": "^3.0.6",
     "readline-sync": "^1.4.10",
     "table": "^6.8.0"
-  },
-  "type": "module"
+  }
 }

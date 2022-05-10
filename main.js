@@ -1,7 +1,8 @@
-import { createSpinner } from "nanospinner";
-import { sleep } from "./lib/functions/misc.js";
-import { game } from "./lib/game.js";
-import start from "./lib/start.js";
+const chalkAnimation = import("chalk-animation");
+const { createSpinner } = require("nanospinner");
+const { sleep } = require("./lib/functions/sleep.js");
+const { game } = require("./lib/game.js");
+const { start } = require("./lib/start.js");
 
 (async function main(){
 
@@ -18,4 +19,5 @@ import start from "./lib/start.js";
     
     // Inicio do jogo
     await game()
+
 })()
